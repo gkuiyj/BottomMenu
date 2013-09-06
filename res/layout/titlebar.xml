@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal">
+  <Button 
+      android:id="@+id/btn_left"
+      android:text="返回"
+      android:textSize="15sp"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginLeft="1dp"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"/>
+  <!-- 
+  <Button 
+      android:id="@+id/btn_right"
+      android:text="主页"
+      android:textSize="15sp"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginLeft="1dp"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"/>
+       -->
+  <TextView android:textSize="15.0sp" 
+         android:textColor="#ffffffff"
+          android:ellipsize="middle"
+           android:gravity="center_horizontal" 
+           android:id="@+id/btntitle"
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content" 
+           android:text="港城无限" 
+           android:singleLine="true" 
+           android:layout_toLeftOf="@+id/btn_right" 
+           android:layout_toRightOf="@+id/btn_left" 
+           android:layout_centerInParent="true" 
+           android:layout_alignWithParentIfMissing="true" >
+    </TextView>
+    
+</RelativeLayout>
